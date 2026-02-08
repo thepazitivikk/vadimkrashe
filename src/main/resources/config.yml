@@ -1,0 +1,10 @@
+database:
+  type: sqlite # продект стабил.
+
+  mysql: # не протещено
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: ""
+

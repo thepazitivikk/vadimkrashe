@@ -1,0 +1,17 @@
+name: KrasheEgorVadim
+version: '${project.version}'
+main: org.thepazitivik.krasheegorvadim.KrasheEgorVadim
+api-version: '1.16'
+discription: Плегггеин KrasheEGORVADIMquiu тестовый плагин
+
+commands:
+  giveitem:
+    description: Выдать кастомный предмет
+    usage: /giveitem <id>
+    permission: customitems.give
+
+permissions:
+  customitems.give:
+    description: Разрешает выдавать кастомные предметы
+    default: op
+
